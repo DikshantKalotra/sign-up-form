@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+.background{
+    display: block;
+    background-image: url("pexels-s-migaj-747964.jpg");
+    width: 100%;
+    height: 761px;
+    background-size: cover;
+    position: fixed;
+    opacity: 0.9;
+}
+.container{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 70%;
+    height: 70%;
+    margin-left: 225px;
+    margin-top: 125px;
+    border-radius: 8px;
+}
+.written{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.page{
+    width: 50%;
+    height: 100%;
+    float: right;
+    margin-left: 25px;
+}
+.written > h3{
+    font-size: 45px;
+    line-height: 45px;
+    color: white;
+    padding-left: 85px;
+    padding-top: 175px;
+}
+.written > p{
+    color: white;
+    padding-left: 85px;
+    padding-top: 25px;
+    font-size: large;
+    line-height: 30px;
+}
+.top{
+    width: 430px;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.top > p{
+    background-color: rgba(159, 68, 245, 0.692);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.247);
+}
+.bottom{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.692);
+    width: 430px;
+    height: 73%;
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.247);
+}
+.content{
+    padding-top: 20px;
+}
+.content > input{
+    background-color: rgba(255, 255, 255, 0.0);
+    border-color: rgb(167, 165, 165);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 385px;
+    margin-left: 13px;
+    margin-top: 15px;
+    padding-left: 8px;
+    padding-top: 7px;
+    transition: border-color ease-in-out 0.2s;
+
+}
+.content > button{
+    font-size: medium;
+    color: aliceblue;
+    background-color: rgb(5, 175, 104, 0.692);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+    border-radius: 5px;
+    width: 403px;
+    margin-left: 13px;
+    margin-top: 25px;
+    text-align: center;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.247);
+
+}
+.content > p{
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+    color:rgb(88, 88, 88);
+}
+
+.content p a{
+    text-decoration: none;
+    color: red;
+    transition: font-weight 0.5s ease-in-out;
+}
+.content p a:hover{
+    font-weight: bold;
+}
+input:focus{
+    outline: none;
+    border-color: black;
+}   
+.content > button:hover{
+    cursor: pointer;
+    background-color: rgba(1, 182, 1, 0.692);
+
+}
